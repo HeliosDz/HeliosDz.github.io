@@ -1242,6 +1242,25 @@ form .button-area{
     font-size: 1.5rem;
     animation: pound .35s infinite alternate;
 }
+.bgimg {
+
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 @-webkit-keyframes pound{
   to{
     transform: scale(1.1);
